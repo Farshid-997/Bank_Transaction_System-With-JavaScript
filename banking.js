@@ -61,6 +61,6 @@ document.getElementById('withdraw-button').addEventListener('click', function ()
         updateBalance(withdrawAmount, false);
     }
     if (withdrawAmount > currentBalance) {
-        console.log('You can not withdraw more than what you have in your account');
+        alert('You can not withdraw more than what you have in your account');
     }
 });
